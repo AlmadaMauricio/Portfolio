@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+/* ---------- SECCION INICIO ---------- */
+#Inicio {
+    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
+    text-align: center; /* Centrar el contenido del artículo */
+    background-color: #00bfff;
+    position: relative;
+}
+
+.item h2{
+    font-size: 75px;
+    line-height: 80px;
+    color: black;
+}
+
+/* ---------- SECCION EXPERIENCIA ---------- */
+#Experiencia {
+    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
+    text-align: center; /* Centrar el contenido del artículo */
+    background-color: #e1e2e6;
+    position: relative;
+
+}
+
+/* ---------- SECCION TECNOLOGIAS ---------- */
+
+#Tecnologias{
+    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
+    text-align: center; /* Centrar el contenido del artículo */
+    background-color: #add8e6;
+    position: relative;
+}
+
+.contenedor img {
+    position:  relative;
+    top: 0;
+    right: 0;
+    padding: 0 25px;
+    width: 200px;
+}
+
+/* ---------- SECCION ACADEMICO ---------- */
+#Academico{
+    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
+    text-align: center; /* Centrar el contenido del artículo */
+    background-color: #778899;
+    position: relative;
+}
+
+/* ---------- SECCION FOOTER ---------- */
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container h2 {
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+}
+
+/* Estilos del formulario */
+.container .form-group {
+    margin-bottom: 15px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
