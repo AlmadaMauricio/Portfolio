@@ -22,14 +22,24 @@ header{
     align-items: center;
 }
 
+.logo img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.logo h2{
+    order: 1;
+    margin: 0;
+}
+
 nav a{
     font-weight: 600;
     padding-right: 10px;
 }
 /* ---------- SECCION INICIO ---------- */
 #Inicio {
-    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
-    text-align: center; /* Centrar el contenido del artículo */
+    padding: 100px 0;
+    text-align: center;
     background-color: #00bfff;
     position: relative;
 }
@@ -42,18 +52,18 @@ nav a{
 
 /* ---------- SECCION EXPERIENCIA ---------- */
 #Experiencia {
-    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
-    text-align: center; /* Centrar el contenido del artículo */
+    padding: 100px 0; 
+    text-align: center;
     background-color: #e1e2e6;
     position: relative;
 
 }
 
-/* ---------- SECCION TECNOLOGIAS ---------- */
+/* ---------- SECCION TECNOLOGIAS --------- */
 
 #Tecnologias{
-    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
-    text-align: center; /* Centrar el contenido del artículo */
+    padding: 100px 0;
+    text-align: center; 
     background-color: #add8e6;
     position: relative;
 }
@@ -68,8 +78,8 @@ nav a{
 
 /* ---------- SECCION ACADEMICO ---------- */
 #Academico{
-    padding: 100px 0; /* Espaciado interior para mejorar la legibilidad */
-    text-align: center; /* Centrar el contenido del artículo */
+    padding: 100px 0; 
+    text-align: center; 
     background-color: #778899;
     position: relative;
 }
